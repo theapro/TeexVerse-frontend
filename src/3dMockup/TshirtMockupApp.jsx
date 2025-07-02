@@ -4,7 +4,7 @@ import { OrbitControls, Environment, Html } from "@react-three/drei";
 import { TextureLoader } from "three";
 import { Stage, Layer, Image as KonvaImage, Transformer } from "react-konva";
 
-import TShirtModel from "./TShirtModel";
+import TShirtModel from "./TshirtModel";
 import FlatPatternGuide from "./FlatPatternGuide";
 import PatternDetector from "../3dMockup/PatternDetector";
 import KonvaDesignEditor from "./KonvaDesignEditor";
