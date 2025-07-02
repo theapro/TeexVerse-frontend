@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import ProductDetail from "./components/ProductDetails";
 import ProductRecommendations from "./components/ProductRecomendations";
 import SewerCalculator from "./components/SewerCalculator";
+import Chat from "./components/Chat";
 
 import AdminPanel from "./admin/AdminPanel";
 import ProductForm from "./admin/ProductForm";
@@ -82,6 +83,7 @@ const App = () => {
         <Route path="/order" element={<OrderPage />} />
         <Route path="/adminordercard" element={<AdminOrderCard />} />
         <Route path="/sewer" element={<SewerCalculator />} />
+        <Route path="/chat" element={<Chat />} />
         
 
         {/* Admin Panel sahifasi */}
